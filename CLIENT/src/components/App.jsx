@@ -1,10 +1,11 @@
 import React from 'react';
+import Navbar from './Navbar';
 
 export default function App() {
-  // TODO: Mount other components to here
+  // TODO: Mount Navbar component below
   return (
-    <div id="App">
-      <p>PackPack Coffee</p>
+    <div className="App">
+      <Navbar />
     </div>
   );
 }
