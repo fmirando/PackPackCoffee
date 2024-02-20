@@ -3,6 +3,7 @@ import React from 'react';
 // (does the same thing as the line below, but doesn't destructure for the function)
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import App from './components/App';
 
