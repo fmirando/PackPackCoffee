@@ -1,6 +1,3 @@
-// Navbar component that will remain sticky on top of every page
-// Navbar should contain PackPack logo/name, and the following tabs: About, Contact, Gallery, and Packages
-// Note that "Landing" component should not be included as a tab but rather the user can click on the name/logo and will be directed to landing page
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
@@ -8,10 +5,12 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <div className="container">
-        <NavLink to="/" className="navbar-brand title">PackPack Coffee</NavLink>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+        <div className="d-flex justify-content-between w-100"> {/* Wrap brand and toggle button inside a flex container */}
+          <NavLink to="/" className="navbar-brand title">PackPack Coffee</NavLink>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
+          </button>
+        </div>
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
