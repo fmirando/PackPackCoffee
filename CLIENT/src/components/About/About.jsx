@@ -4,11 +4,8 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div>
-      <span />
-      <span />
-      <span />
-      <p>About Us</p>
+    <div className="container mt-5 pt-4">
+      <h1>About Us</h1>
       <p>
         Tempor elit occaecat incididunt duis commodo consequat esse esse ipsum. Dolor quis adipisicing eiusmod aute nulla tempor deserunt aute enim nulla labore consectetur. Laboris occaecat voluptate ut veniam elit laboris excepteur. Sunt dolor proident deserunt sint proident officia tempor. Sint fugiat fugiat qui aliquip non voluptate.
 
