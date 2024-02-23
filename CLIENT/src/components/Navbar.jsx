@@ -11,6 +11,7 @@ export default function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
         </div>
+        {/* TODO: Refactor using Bootstrap Container instead of list */}
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">

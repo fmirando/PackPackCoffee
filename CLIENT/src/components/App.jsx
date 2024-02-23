@@ -8,6 +8,7 @@ import Gallery from './Gallery/Gallery';
 import Packages from './PackagesMenu/Packages';
 
 export default function App() {
+  // TODO: Patty, please refactor the routes into their own separate routes file, import them here and map over
   return (
     <div className="App">
       <Navbar />
