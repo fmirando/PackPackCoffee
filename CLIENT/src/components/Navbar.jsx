@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { Container } from 'react-bootstrap';
+import { Container, Nav } from 'react-bootstrap';
 
+// TODO: Need to add button for "Book Us Today!"
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <Nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <Container className="container">
         <div className="d-flex justify-content-between w-100"> {/* Wrap brand and toggle button inside a flex container */}
           <NavLink to="/" className="navbar-brand title">PackPack Coffee</NavLink>
@@ -30,6 +31,6 @@ export default function Navbar() {
           </ul>
         </div>
       </Container>
-    </nav>
+    </Nav>
   );
 }
