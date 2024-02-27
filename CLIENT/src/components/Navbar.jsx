@@ -1,10 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Container } from 'react-bootstrap';
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-      <div className="container">
+      <Container className="container">
         <div className="d-flex justify-content-between w-100"> {/* Wrap brand and toggle button inside a flex container */}
           <NavLink to="/" className="navbar-brand title">PackPack Coffee</NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,7 +29,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-      </div>
+      </Container>
     </nav>
   );
 }
