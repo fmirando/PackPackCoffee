@@ -24,7 +24,7 @@ const NavBar = () => {
           <Nav.Link as={NavLink} to="/packages" className={styles.navLink}
           >Packages
           </Nav.Link>
-        </Nav> 
+        </Nav>
       </Navbar.Collapse>
     </Container>
   </Navbar>
