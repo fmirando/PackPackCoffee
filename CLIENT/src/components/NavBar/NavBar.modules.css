@@ -17,6 +17,7 @@
   height: 100%; /* Ensure Navbar takes full height */
   max-width: 1200px; /* Adjust max-width as needed */
   width: 100%; /* Ensure Navbar takes full width */
+  text-align: center; /* Center align all text */
 }
 
 .navLink {
