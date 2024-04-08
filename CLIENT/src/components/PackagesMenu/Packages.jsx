@@ -7,20 +7,32 @@ import BaristaPrepImg from '../../../public/images/barista_prep.png';
 
 export default function Packages() {
   return (
-    <div>
-      <p>Packages</p>
-      <img src={SelfServeImg} alt="SelfServe" />
-      <img src={BaristaPrepImg} alt="BaristaPrep" />
-      <p>
-        Self-Serve
-        What's included? We provide your choice of beverages in self-serve dispensers, cups, lids, straws, stirrers, sugar, and cream. Set-up is also provided and everything can be taken home or disposed of at the end of the day.
-        Packages start at $350
-      </p>
-      <p>
-        Barista-Prep
-        What's included? This package includes a coffee cart, and a barista at your even, providing handcrafted drinks to your guests. Live customization of drinks offer a larger menu and dietary accommodations.
-        Packages start at $410
-      </p>
+    <div className="container text-center mt-5">
+      <h2 className="mb-4">Packages</h2>
+      <div className="row mb-5 align-items-center">
+        <div className="col-md-6 d-flex justify-content-center">
+          <img src={SelfServeImg} alt="SelfServe" className="img-fluid mb-3" />
+        </div>
+        <div className="col-md-6">
+          <p className="mb-0 text-md-start">
+            <strong>Self-Serve</strong><br />
+            What's included? We provide your choice of beverages in self-serve dispensers, cups, lids, straws, stirrers, sugar, and cream. Set-up is also provided and everything can be taken home or disposed of at the end of the day.<br />
+            Packages start at $350
+          </p>
+        </div>
+      </div>
+      <div className="row mb-5 align-items-center">
+        <div className="col-md-6 order-md-2 d-flex justify-content-center">
+          <img src={BaristaPrepImg} alt="BaristaPrep" className="img-fluid mb-3" />
+        </div>
+        <div className="col-md-6 order-md-1">
+          <p className="mb-0 text-md-end">
+            <strong>Barista-Prep</strong><br />
+            What's included? This package includes a coffee cart, and a barista at your event, providing handcrafted drinks to your guests. Live customization of drinks offers a larger menu and dietary accommodations.<br />
+            Packages start at $410
+          </p>
+        </div>
+      </div>
     </div>
   );
 }
