@@ -6,7 +6,7 @@ import React from 'react';
 export default function Packages() {
   return (
     <div>
-      <p>Packages</p>
+      <p>Packages changes!</p>
     </div>
   );
 }
