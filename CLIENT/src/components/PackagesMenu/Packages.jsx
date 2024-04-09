@@ -5,10 +5,12 @@ import React from 'react';
 import SelfServeImg from '../../../public/images/self_serve.png';
 import BaristaPrepImg from '../../../public/images/barista_prep.png';
 
+// TODO increase text size
+
 export default function Packages() {
   return (
     <div className="container text-center mt-5">
-      <h2 className="mb-4">Packages</h2>
+      <h2 className="mb-4">Package</h2>
       <div className="row mb-5 align-items-center">
         <div className="col-md-6 d-flex justify-content-center">
           <img src={SelfServeImg} alt="SelfServe" className="img-fluid mb-3" />
