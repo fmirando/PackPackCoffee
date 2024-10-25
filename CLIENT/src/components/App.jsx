@@ -3,7 +3,7 @@ import { Routes, Route } from 'react-router-dom';
 import Navbar from './NavBar/Navbar';
 // import Landing from './Landing/Landing';
 // import About from './About/About';
-// import Contact from './Contact/Contact';
+import Contact from './Contact/ContactForm';
 // import Gallery from './Gallery/Gallery';
 // import Packages from './PackagesMenu/Packages';
 import routes from './Routes/Routes';
